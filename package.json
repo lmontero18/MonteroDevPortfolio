@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "My portfolio web showcasing my skills in frontEnd Dev and also backEnd Dev",
   "main": "backend/server.js",
+  "engines": {
+    "node": "18.x"
+  },
   "scripts": {
     "start": "node backend/server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
