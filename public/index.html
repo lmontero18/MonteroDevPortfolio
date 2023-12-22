@@ -169,36 +169,15 @@
           </h3>
 
           <div class="education-box">
-            <div class="education-content">
+            <div class="education-content" id="rosaCuarzoLink">
               <div class="content">
                 <div class="year">2023</div>
                 <h3>Floristería Rosa Cuarzo</h3>
                 <p>
                   La Floristería Rosa Cuarzo es una aplicación web dinámica para
-                  la exploración y compra de flores y arreglos florales. Esta
-                  aplicación incorpora una serie de tecnologías modernas para
-                  proporcionar una experiencia de usuario fluida y
-                  funcionalidades avanzadas:
+                  la exploración y compra de flores y arreglos florales. Creada
+                  con React, tailwindCSS y firebase.
                 </p>
-                <ul>
-                  <li>
-                    <strong>React:</strong> Utilizado para desarrollar una
-                    interfaz de usuario interactiva.
-                  </li>
-                  <li>
-                    <strong>Firebase:</strong> Empleado para la autenticación de
-                    usuarios y como base de datos.
-                  </li>
-                  <li>
-                    <strong>Node.js:</strong> Usado en la gestión del servidor y
-                    la lógica del lado del servidor.
-                  </li>
-                  <li>
-                    <strong>Tailwind CSS:</strong> Aplicado en el diseño y
-                    estilos de la aplicación para una estética moderna y
-                    responsiva.
-                  </li>
-                </ul>
               </div>
             </div>
 
@@ -406,5 +385,12 @@
     <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script src="app.js"></script>
     <script src="/animaciones.js"></script>
+    <script>
+      document
+        .getElementById("rosaCuarzoLink")
+        .addEventListener("click", function () {
+          window.location.href = "https://rosa-cuarzo-floristeria.vercel.app";
+        });
+    </script>
   </body>
 </html>
